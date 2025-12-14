@@ -1,53 +1,112 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <title>Web Design Assistant - 개인정보 처리방침</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      max-width: 700px;
-      margin: 50px auto;
-      line-height: 1.6;
-      padding: 0 10px;
-    }
-    h1, h2 {
-      color: #333;
-    }
-    ul {
-      list-style: disc;
-      margin-left: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Dopamine Cutter (도파민 절단기)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin-top: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        h3 {
+            margin-top: 25px;
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .en-translation {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 4px;
+            display: block;
+        }
+        code {
+            background-color: #f6f8fa;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: Consolas, monospace;
+        }
+    </style>
 </head>
 <body>
-  <h1>개인정보 처리방침</h1>
-  <p><strong>최종 업데이트일:</strong> 2025-01-18</p>
-  
-  <p>
-    본 확장 프로그램(“Web Design Assistant”)은 사용자로부터 어떠한 개인 식별 정보(이름, 이메일, 결제 정보 등)를 
-    수집하지 않습니다. 단, 웹사이트의 폰트/컬러 정보를 분석하는 과정에서 브라우저 탭의 DOM(CSS) 정보를 
-    일시적으로 읽어오지만, 외부 서버로 전송하거나 영구 저장하지 않습니다.
-  </p>
-  
-  <p>
-    이는 브라우저 내부에서만 수행되는 로컬 분석이며, 사용자가 설정한 옵션(예: UI 테마, 사용 언어 등)은 
-    크롬 브라우저의 내부 저장소에 저장될 수 있으나, 제3자에게 제공되지 않습니다.
-  </p>
-  
-  <h2>데이터 수집 및 사용</h2>
-  <ul>
-    <li>개인 식별 정보: 수집 안 함</li>
-    <li>웹 사이트 방문 기록: 확장 프로그램이 작동 중인 탭에 대한 CSS/DOM 정보만 임시 확인</li>
-    <li>외부 전송: 없음</li>
-  </ul>
-  
-  <h2>문의</h2>
-  <p>
-    본 개인정보 처리방침에 관해 궁금한 점이나 건의 사항이 있으시면 
-    <a href="mailto:skarlgna2366@gmail.com">skarlgna2366@gmail.com</a> 으로 문의해 주세요.
-  </p>
-  
-  <p>이 방침은 관련 법령 및 구글 크롬 웹스토어 정책에 따라 변경될 수 있으며, 중요한 변경 시 재공지하겠습니다.</p>
+    <h1>Privacy Policy for Dopamine Cutter (도파민 절단기)</h1>
+    
+    <p><strong>Last Updated:</strong> December 15, 2025</p>
+    
+    <p>
+        <strong>Dopamine Cutter</strong> ("we", "us", or "our") respects your privacy. This Privacy Policy explains how we collect, use, and handle your information when you use our Chrome Extension.
+    </p>
+
+    <h2>1. Information We Collect (수집하는 정보)</h2>
+
+    <h3>A. Personal Information (개인정보)</h3>
+    <ul>
+        <li>
+            <strong>Email Address</strong>: When you sign up or log in, we collect your email address via <strong>Supabase Auth</strong> to manage your account and synchronize your data across devices.
+            <span class="en-translation">(회원가입 및 로그인 시, 계정 관리와 데이터 동기화를 위해 <strong>Supabase Auth</strong>를 통해 이메일 주소를 수집합니다.)</span>
+        </li>
+    </ul>
+
+    <h3>B. Usage Data (사용 데이터)</h3>
+    <ul>
+        <li>
+            <strong>Focus Sessions</strong>: We store the duration of your focus sessions to provide you with productivity statistics.
+            <span class="en-translation">(생산성 통계 제공을 위해 집중 세션 지속 시간을 저장합니다.)</span>
+        </li>
+        <li>
+            <strong>Settings</strong>: Your preferences (e.g., blocking options, timer duration) are stored locally on your device using <code>chrome.storage</code>.
+            <span class="en-translation">(차단 옵션, 타이머 시간 등의 설정은 <code>chrome.storage</code>를 사용하여 사용자 기기에 로컬로 저장됩니다.)</span>
+        </li>
+    </ul>
+
+    <h2>2. How We Use Your Information (정보 이용 목적)</h2>
+    <ul>
+        <li><strong>Authentication</strong>: To verify your identity and allow you to log in.</li>
+        <li><strong>Service Provision</strong>: To ensure the "Focus Mode" and "Blocking" features work correctly.</li>
+        <li><strong>Statistics</strong>: To show you your own history of focus time.</li>
+    </ul>
+    
+    <p>
+        We do <strong>NOT</strong> track your browsing history outside of YouTube. We only access YouTube.com to hide specific elements (Shorts, Feed) as requested by you.
+    </p>
+    <p class="en-translation">
+        (우리는 유튜브 이외의 웹사이트 탐색 기록을 추적하지 않습니다. 오직 사용자가 요청한 요소(쇼츠, 피드)를 숨기기 위해서만 YouTube.com에 접근합니다.)
+    </p>
+
+    <h2>3. Data Sharing (데이터 공유)</h2>
+    <p>
+        We do <strong>not</strong> sell, trade, or rent your personal identification information to others.
+    </p>
+    <p class="en-translation">
+        (우리는 사용자의 개인 식별 정보를 제3자에게 판매하거나 대여하지 않습니다.)
+    </p>
+
+    <h2>4. Contact Us (문의하기)</h2>
+    <p>
+        If you have any questions about this Privacy Policy, please contact us at:<br>
+        <span class="en-translation">(개인정보처리방침에 대해 궁금한 점이 있으시면 아래로 문의해 주세요.)</span>
+    </p>
+    <p>
+        <strong>Email</strong>: <a href="mailto:skarlgna2366@gmail.com">skarlgna2366@gmail.com</a>
+    </p>
 </body>
 </html>
